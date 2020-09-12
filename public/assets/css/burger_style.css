@@ -1,0 +1,50 @@
+.bg {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg::before {    
+      content: "";
+      background-image: url('https://i.insider.com/5b512b8af3fd9986018b48ec?width=1100&format=jpeg&auto=webp');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.15;
+}
+h1 {
+    position: relative;
+    color: #221717;  
+    font-size: 14rem;
+    line-height: 0.9;
+    text-align: center;
+  }
+
+.color {
+    border: 2px solid;
+    border-color: rgb(151, 121, 121);
+    border-radius: 10px;
+    color: yellow;
+    background-color: rgba(148, 22, 22, 0.79);
+    
+}
+::placeholder {
+    color: red;
+    opacity: 1; 
+  }
+
+#ca {
+    color: black;
+}
+.change-devour {
+    color: black
+}
+.change-devour:hover {
+    font-size: medium;
+}
